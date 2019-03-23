@@ -7,7 +7,7 @@ public class CountNonDivisible {
         for (int i = 0; i<A.length; i++){
             int counter =0;
             for (int j = 0; j<A.length; j++){
-                if(A[i]/A[j]!=0 ){
+                if(A[i]%A[j]!=0 ){
                     counter++;
                 }
             }
